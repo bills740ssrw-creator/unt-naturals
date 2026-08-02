@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNT Naturals - Pure Honey & Natural Wellness</title>
+<meta name="description" content="UNT Naturals brings pure, unprocessed honey and natural wellness foods straight from nature to your home.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <a href="#" class="logo">
+      <span class="logo-icon">🍯</span>
+      <span class="logo-text">UNT<span class="logo-accent">Naturals</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn-icon cart-btn" aria-label="Cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="cart-count">0</span>
+      </button>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">Est. 2023 — Pratapgarh, India</span>
+      <h1 class="hero-title">Pure Honey,<br><span class="text-accent">Pure Nature.</span></h1>
+      <p class="hero-subtitle">Straight from the hive to your home. No processing. No additives. Just raw, unfiltered honey harvested from the pristine farms of Uttar Pradesh.</p>
+      <div class="hero-buttons">
+        <a href="#shop" class="btn btn-primary">Shop Collection</a>
+        <a href="#story" class="btn btn-outline">Our Story</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-number">100%</span><span class="stat-label">Raw & Unprocessed</span></div>
+        <div class="stat"><span class="stat-number">1000+</span><span class="stat-label">Happy Customers</span></div>
+        <div class="stat"><span class="stat-number">FSSAI</span><span class="stat-label">Quality Certified</span></div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-image-wrapper">
+        <div class="hero-product-card">
+          <img src="https://images.pexels.com/photos/2134135/pexels-photo-2134135.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pure natural honey jar" class="hero-product-img">
+          <div class="hero-card-info">
+            <span class="hero-card-badge">Bestseller</span>
+            <h3>Raw Forest Honey</h3>
+            <p>From ₹349</p>
+          </div>
+        </div>
+        <div class="hero-floating honeycomb"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature-item">
+      <div class="feature-icon">🌿</div>
+      <h3>100% Natural</h3>
+      <p>No artificial flavors, colors, or preservatives. Pure as nature intended.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🏡</div>
+      <h3>Farm to Table</h3>
+      <p>Sourced directly from our partner farms in Pratapgarh, Uttar Pradesh.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🔬</div>
+      <h3>Lab Tested</h3>
+      <p>Every batch undergoes rigorous quality testing for purity and safety.</p>
+    </div>
+    <div class="feature-item">
+      <div class="feature-icon">🚚</div>
+      <h3>Pan-India Delivery</h3>
+      <p>Free shipping on orders above ₹499. Delivered with care.</p>
+    </div>
+  </section>
+
+  <section id="shop" class="shop">
+    <div class="section-header">
+      <h2>Our Products</h2>
+      <p>Pure, raw, and natural honey varieties crafted for your wellbeing.</p>
+      <div class="shop-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="honey">Honey</button>
+        <button class="filter-btn" data-filter="specialty">Specialty</button>
+        <button class="filter-btn" data-filter="combo">Combos</button>
+      </div>
+    </div>
+    <div class="products-grid">
+      <div class="product-card" data-category="honey">
+        <div class="product-image">
+          <img src="https://img.pexels.com/photos/4134103/pexels-photo-4134103.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Raw Honey">
+          <span class="product-badge bestseller">Bestseller</span>
+          <button class="quick-view-btn" aria-label="Quick view">Quick View</button>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Raw Honey</span>
+          <h3 class="product-name">Raw Forest Honey</h3>
+          <p class="product-desc">Pure, unprocessed honey harvested from deep forest apiaries. Rich in antioxidants.</p>
+          <div class="product-footer">
+            <div class="product-price">₹349 <span class="price-unit">/ 500g</span></div>
+            <button class="btn btn-primary btn-sm add-to-cart" data-name="Raw Forest Honey" data-price="349">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" data-category="honey">
+        <div class="product-image">
+          <img src="https://img.pexels.com/photos/4016128/pexels-photo-4016128.jpeg?auto=compress&cs=tinysrgb&w=600" alt="organic honey">
+          <span class="product-badge organic">Organic</span>
+          <button class="quick-view-btn" aria-label="Quick View">Quick View</button>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Organic Honey</span>
+          <h3 class="product-name">Organic Wild Honey</h3>
+          <p class="product-desc">Certified organic bee farms nourished without chemicals or pesticides.</p>
+          <div class="product-footer">
+            <div class="product-price">₹449 <span class="price-unit">/ 500g</span></div>
+            <button class="btn btn-primary btn-smart add-to-cart" data-name="Organic Wild Honey" data-price="449">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" data-category="specialty">
+        <div class="product-image">
+          <img src="https://img.pexels.com/photos/6832295/pexels-photo-6832295.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Herbal honey">
+          <span class="product-badge new">New</span>
+          <button class="quick-view-btn" aria-label="Quick View">Quick View</button>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Herbal Honey</span>
+          <h3 class="product-name">Herbal Infused Honey</h3>
+          <p class="product-desc">Natural honey infused with ayurvedic herbs like tulsi, ginger, and turmeric.</p>
+          <div class="product-footer">
+            <div class="product-price">₹499 <span class="price-unit">/ 500g</span></div>
+            <button class="btn btn-primary btn-smart add-to-cart" data-name="Herbal Infused Honey" data-price="499">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" data-category="honey">
+        <div class="product-image">
+          <img src="https://img.pexels.com/photos/9754192/pexels-photo-9754192.jpeg?auto=compress&cs=tinysrgb&w=600" alt="flavored honey">
+          <button class="quick-view-btn" aria-label="Quick View">Quick View</button>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Flavored Honey</span>
+          <h3 class="product-name">Cinnamon Flavored Honey</h3>
+          <p class="product-desc">Delightful blend of raw honey with natural cinnamon extract. A warm treat.</p>
+          <div class="product-footer">
+            <div class="product-price">₹379 <span class="price-unit">/ 500g</span></div>
+            <button class="btn btn-primary btn-smart add-to-cart" data-name="Cinnamon Flavored Honey" data-price="379">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" data-category="specialty">
+        <div class="product-image">
+          <img src="https://img.pexels.com/photos/7070375/pexels-photo-7070375.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Raw honeycomb">
+          <span class="product-badge premium">Premium</span>
+          <button class="quick-view-btn" aria-label="Quick View">Quick View</button>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Specialty</span>
+          <h3 class="product-name">Raw Honeycomb</h3>
+          <p class="product-desc">Straight from the hive. Whole honeycomb with unprocessed honey still inside.</p>
+          <div class="product-footer">
+            <div class="product-price">₹1,249 <span class="price-unit">/ box</span></div>
+            <button class="btn btn-primary btn-smart add-to-cart" data-name="Raw Honeycomb" data-price="1249">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card" data-category="combo">
+        <div class="product-image">
+          <img src="https://img.pexels.com/photos/4584615/pexels-photo-4584615.jpeg?auto=compress&cs=tinysrgb&w=600" alt="sampler pack">
+          <span class="product-badge deal">Deal</span>
+          <button class="quick-view-btn" aria-label="Quick View">Quick View</button>
+        </div>
+        <div class="product-info">
+          <span class="product-category">Combo</span>
+          <h3 class="product-name">Natural Honey Sampler Pack</h3>
+          <p class="product-desc">3 x 200g jars - Performance: Forest, Organic Wild & Herbal Infused.</p>
+          <div class="product-footer">
+            <div class="product-price"><span class="price-old">₹749</span> ₹599</div>
+            <button class="btn btn-primary btn-smart add-to-cart" data-name="Honey Sampler Pack" data-price="599">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="cta-content">
+      <h2>Why Settle for Processed?</h2>
+      <p>Most store-bought honey is heated, filtered, and stripped of natural enzymes. Ours is raw, straight from the hive.</p>
+      <div class="cta-benefits">
+        <span>No Additives</span>
+        <span>Unfiltered</span>
+        <span>Cold-Extracted</span>
+        <span>Lab Tested</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div class="about-image">
+        <img src="https://img.pexels.com/photos/62627/sunflower-bee-macro-nature-62627.jpeg?auto=compress&cs=tinysrgb&w=900" alt="UNT Naturals farm">
+      </div>
+      <div class="about-content">
+        <h2>From Our Farm to Your Family</h2>
+        <p class="about-lead">Shri Garud Agro Corporation, established in 2023 with a simple mission: bring pure, unprocessed honey and natural wellness food to Indian households.</p>
+        <p>We partner with local beekeepsers supported farms spanning acres of rich, unpolluted farmland of Pratapgarh, Uttar Pradesh. Every drop of our honey tells the story of nature's finest work — untouched, unfiltered, and absolutely pure.</p>
+        <div class="about-highlights">
+          <div>
+            <span class="highlight-number">2+</span>
+            <span>Years of Trust</span>
+          </div>
+          <div>
+            <span class="highlight-number">50+</span>
+            <span>Partner Farms</span>
+          </div>
+          <div>
+            <span class="highlight-number">6</span>
+            <span>Honey Varieties</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="story" class="story">
+    <div class="story-inner">
+      <span class="section-label">The Founder</span>
+      <h2>Meet Sudhanshu Tripathi</h2>
+      <p class="story-text">"Natural" is the most misused word in the Indian food industry. Any brand can print it on a label without proof. I started UNT Naturals because I wanted to create something genuinely different — honey that people can trust completely, where every jar is traceable back to the hive it came from."</p>
+      <p class="story-text">As the founder and director of Shri Garud Agro Corporation, Sudhanshu works directly with beekeepers to ensure every batch meets the highest standards, bringing hyperlocal, raw honey's goodness to tables across India.</p>
+      <div class="story-cta">
+        <span>📍 Based in Pratapgarh, Uttar Pradesh | shipping Pan-India</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="section-header">
+      <h2>What Our Customers Say</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"I've never tasted honey this pure before. You can actually smell the flowers! Completely different from store brands."</p>
+        <div class="testimonial-author">
+          <strong>Priya M.</strong>
+          <span>Mumbai</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"Ordered the Raw Forest Honey for my son's cough. The results were amazing, and it tasted delicious. Will buy regularly now."</p>
+        <div class="testimonial-author">
+          <strong>Rahul S.</strong>
+          <span>Pratapgarh</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p>"The sampler pack is perfect. All three varieties are unique, and the packaging is premium. Great for gifting!"</p>
+        <div class="testimonial-author">
+          <strong>Anita K.</strong>
+          <span>Lucknow</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="newsletter-content">
+      <h2>Stay Naturally Informed</h2>
+      <p>Get regular updates about new varieties, honey recipes, and exclusive offers.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Have questions about our honey? Want to place a bulk order? We'd love to hear from you.</p>
+        <div class="contact-methods">
+          <div class="contact-method">
+            <span class="contact-icon">📧</span>
+            <div>
+              <strong>Email</strong>
+              <span>Info@untnaturals.com</span>
+            </div>
+          </div>
+          <div class="contact-method">
+            <span class="contact-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <span>Shri Garud Agro Corporation, Pratapgarh, Uttar Pradesh, India</span>
+            </div>
+          </div>
+          <div class="contact-method">
+            <span class="contact-icon">🕐</span>
+            <div>
+              <strong>Business Hours</strong>
+              <span>Mon-Sat: 9:00 AM - 6:00 PM IST</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="What would you like to know?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="logo">🍯 UNT<span class="logo-accent">Naturals</span></span>
+      <p>Bringing pure, unprocessed honey and natural wellness foods from our farms to your table. Nature's sweetness, nothing.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#">Raw Forest Honey</a></li>
+        <li><a href="#">Organic Wild Honey</a></li>
+        <li><a href="#">Herbal Indulged</a></li>
+        <li><a href="#">Sampler Pack</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Shipping Policy</a></li>
+        <li><a href="#">Returns</a></li>
+        <li><a href="#">Bulk Orders</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 UNT Naturals. All rights reserved. | Developed with 💛 for Shri Garud Agro Corp.</p>
+    <div class="footer-badges">
+      <span>FSSAI Certified</span>
+      <span>Made in India</span>
+      <span>100% Natural</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cart-sidebar" id="cartSidebar">
+  <div class="cart-header">
+    <h2>Your Cart</h2>
+    <button class="cart-close" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty">Your cart is empty.</p>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>Total:</span>
+      <span id="cartTotal">₹0</span>
+    </div>
+    <button class="btn btn-primary btn-block">Checkout</button>
+  </div>
+</div>
+
+<div class="quick-view-modal" id="quickViewModal">
+  <div class="modal-backdrop"></div>
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <div class="modal-product">
+      <div class="modal-image">
+        <img src="" alt="">
+      </div>
+      <div class="modal-info">
+        <span class="product-category"></span>
+        <h2></h2>
+        <p class="modal-desc"></p>
+        <div class="modal-options">
+          <label>Size:</label>
+          <select class="modal-select">
+            <option>250g - ₹199</option>
+            <option selected>500g - ₹349</option>
+            <option>1kg - ₹599</option>
+          </select>
+        </div>
+        <div class="modal-actions">
+          <span class="modal-price"></span>
+          <button class="btn btn-primary btn-large">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
